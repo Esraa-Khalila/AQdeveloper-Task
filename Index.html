@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon from iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Trading Symphoney</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="main-nav">
+        <button class="hamburger-icon" onclick="openClose()">
+          <iconify-icon icon="cil:hamburger-menu"> </iconify-icon>
+        </button>
+        <div class="logo">
+          <a href="#"
+            >Trading
+            <p><span class="firstChar">S</span>ymphoney</p>
+          </a>
+        </div>
+        <div class="dropdown-list">
+          <a>
+            <iconify-icon icon="twemoji:flag-jordan"></iconify-icon>
+            Delivery to Amman
+          </a>
+          <iconify-icon icon="akar-icons:chevron-down"></iconify-icon>
+          <ul class="dropdown-item">
+            <li>- Zarqa</li>
+            <li>- Irbid</li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="search" />
+          <iconify-icon class="search-icon" icon="bi:search"></iconify-icon>
+        </div>
+        <nav class="nav" id="nav-content">
+          <ul class="menu">
+            <li class="menu-item">
+              <a>اللغة العربية</a>
+            </li>
+            <li class="menu-item">
+              <a>Cart</a>
+            </li>
+            <li class="menu-item">
+              <a>Sell with Us</a>
+            </li>
+            <div>
+              <li class="menu-item user-name">Hello Mohammed</li>
+              <li class="menu-item dropdown-list">
+                <a
+                  >My Account
+                  <iconify-icon icon="akar-icons:chevron-down"></iconify-icon>
+                  <ul class="dropdown-item">
+                    <li>Profile</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="sub-nav">
+        <div class="sub-nav-search">
+          <div class="sub-nav-menu dropdown-list">
+            Search in Category
+            <ul class="dropdown-item">
+              <li>dress</li>
+            </ul>
+            <iconify-icon icon="akar-icons:chevron-down"></iconify-icon>
+          </div>
+          <div class="sub-nav-menu dropdown-list">
+            Search in all web-category
+            <ul class="dropdown-item">
+              <li>Clothes</li>
+            </ul>
+            <iconify-icon icon="akar-icons:chevron-down"></iconify-icon>
+          </div>
+          <div class="sub-nav-menu dropdown-list">
+            Color
+            <ul class="dropdown-item">
+              <li>Red</li>
+            </ul>
+            <iconify-icon icon="akar-icons:chevron-down"></iconify-icon>
+          </div>
+          <div class="sub-nav-menu dropdown-list">
+            Size
+            <ul class="dropdown-item">
+              <li>35</li>
+            </ul>
+            <iconify-icon icon="akar-icons:chevron-down"></iconify-icon>
+          </div>
+          <div class="sub-nav-price">High price</div>
+          <iconify-icon icon="codicon:dash"></iconify-icon>
+          <div class="sub-nav-price">Low price</div>
+        </div>
+        <div>
+          <button type="submit">Search</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="hero">
+          <div class="disount">
+            <div class="discount-item item">Discount</div>
+            <div class="discount-price">35%</div>
+            <div class="off">OFF</div>
+            <div class="discount-item order">ORDER NOW</div>
+          </div>
+          <div class="new-product">
+            <img src="./images/new-product.jpg" />
+          </div>
+        </div>
+        <div class="checkout-details">
+          <h5 class="check-title">Check Our Products</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            assumenda beatae cupiditate, exercitationem ratione ipsa a! Eius
+            suscipit alias non! Deserunt perferendis rem ipsum doloribus nobis
+            facere, debitis autem maiores!
+          </p>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card-body card-one">
+          <h5>Computers,Accessories</h5>
+          <button class="card-button">shop Now</button>
+        </div>
+        <div class="card-body card-two">
+          <h5>Electronics</h5>
+          <button class="card-button">shop Now</button>
+        </div>
+        <div class="card-body card-three">
+          <h5>Health Care</h5>
+          <button class="card-button">shop Now</button>
+        </div>
+        <div class="card-body card-four">
+          <h5>Pet Supplies</h5>
+          <button class="shop-button">shop Now</button>
+        </div>
+      </section>
+      <section>
+        <div class="checkout-details">
+          <h5 class="check-title">Check other products</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            assumenda beatae cupiditate, exercitationem ratione ipsa a! Eius
+            suscipit alias non! Deserunt perferendis rem ipsum doloribus nobis
+            facere, debitis autem maiores!
+          </p>
+        </div>
+        <div class="other-product">
+          <div>
+            <img src="./images/other-product.png" />
+          </div>
+          <div class="checkout-details other-checkout">
+            <h3 class="check-title">CHECK OTHER PRODUCTS NOW!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              assumenda beatae cupiditate, exercitationem ratione ipsa a! Eius
+              suscipit alias non! Deserunt perferendis rem ipsum doloribus nobis
+              facere
+            </p>
+            <button class="shop-button other-button">shop Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-details">
+          <div class="logo">
+            <a href="#"
+              >Trading
+              <p><span class="firstChar">S</span>ymphoney</p>
+            </a>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur, <br />
+              adipisicing elitItaque animi nesciunt
+            </p>
+          </div>
+          <div>
+            <p>Stay tund with us</p>
+            <div class="footer-icon">
+              <iconify-icon
+                icon="akar-icons:facebook-fill"
+                style="color: #e2af21"
+              ></iconify-icon>
+              <iconify-icon
+                icon="entypo-social:instagram-with-circle"
+                style="color: #e2af21"
+              ></iconify-icon>
+              <iconify-icon
+                icon="ant-design:twitter-circle-filled"
+                style="color: #e2af21"
+              ></iconify-icon>
+              <iconify-icon
+                icon="entypo-social:linkedin-with-circle"
+                style="color: #e2af21"
+              ></iconify-icon>
+            </div>
+          </div>
+        </div>
+        <div class="footer-menu">
+          <div>
+            <ul>
+              <li>Stores</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Warranty policy</li>
+              <li>Sekk with us</li>
+              <li>Terms of Use</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Payments</li>
+              <li>Visa</li>
+              <li>Master Card</li>
+              <li>Cash</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">@ 2022 tading Symphoney. All Rights Reserved</div>
+    </footer>
+    <script>
+      function openClose() {
+        var navItem = document.getElementById("nav-content");
+        if (navItem.style.display === "block") {
+          navItem.style.display = "none";
+        } else {
+          navItem.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
